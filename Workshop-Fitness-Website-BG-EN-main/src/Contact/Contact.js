@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Импортиране на Link компонента от react-router-dom
+import { Link } from 'react-router-dom'; 
 import '../App.css';
 import { useLanguage } from '../LanguageContext/LanguageContext';
 
@@ -21,7 +21,7 @@ const Contact = () => {
         <a href="https://twitter.com/fitnesdeluxe&spa" target="_blank" rel="noopener noreferrer">Twitter</a>
       </div>
       <div className="back-button-container" style={{ position: 'fixed', bottom: '330px', right: '1060px' }}>
-        <Link to="/" className="back-button">{language === 'bg' ? 'Назад' : 'Back'}</Link> {/* Използване на Link компонента с пътя към началната страница */}
+        <Link to="/" className="back-button">{language === 'bg' ? 'Назад' : 'Back'}</Link> 
       </div>
     </div>
   );
