@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Импортиране на Link компонента от react-router-dom
+import { Link } from 'react-router-dom'; 
 import { animated, useSpring } from 'react-spring';
 import '../App.css';
-import { useLanguage } from '../LanguageContext/LanguageContext'; // Импорт на хука за използване на езика
+import { useLanguage } from '../LanguageContext/LanguageContext'; /
 
 const KidsTraining = () => {
   const kidsTrainingAnimation = useSpring({
