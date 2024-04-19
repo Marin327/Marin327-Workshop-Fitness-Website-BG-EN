@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { animated, useSpring } from 'react-spring';
-import { Link } from 'react-router-dom'; // Импортиране на Link компонента от react-router-dom
+import { Link } from 'react-router-dom'; 
 import '../App.css';
 import { useLanguage } from '../LanguageContext/LanguageContext';
 
@@ -104,7 +104,7 @@ const ExpertServices = () => {
           </li>
         ))}
       </ul>
-      <div className="back-button-container"> {/* Контейнер за бутона за навигация назад */}
+      <div className="back-button-container"> 
         <Link to="/" className="back-button">Назад</Link> {/* Използване на Link компонента с пътя към home страницата */}
       </div>
     </animated.div>
