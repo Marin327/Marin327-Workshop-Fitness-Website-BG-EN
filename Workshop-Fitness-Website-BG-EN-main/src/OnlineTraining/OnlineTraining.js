@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Импортиране на Link компонента от react-router-dom
+import { Link } from 'react-router-dom'; 
 import { animated, useSpring } from 'react-spring';
 import { useLanguage } from '../LanguageContext/LanguageContext';
 
@@ -65,8 +65,8 @@ const OnlineTraining = () => {
           </div>
         ))}
       </div>
-      <div className="back-button-container"> {/* Контейнер за бутона за навигация назад */}
-        <Link to="/" className="back-button">Назад</Link> {/* Използване на Link компонента с пътя към home страницата */}
+      <div className="back-button-container">
+        <Link to="/" className="back-button">Назад</Link> 
       </div>
     </animated.div>
   );
