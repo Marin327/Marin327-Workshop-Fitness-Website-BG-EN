@@ -100,7 +100,7 @@ const DietDetails = () => {
           </animated.div>
         )}
         <div style={{ textAlign: 'right', position: 'fixed', bottom: '20px', right: '20px' }}>
-  <Link to="/" className="back-button">{language === 'bg' ? 'Назад' : 'Back'}</Link> {/* Използване на Link компонента с пътя към началната страница */}
+  <Link to="/" className="back-button">{language === 'bg' ? 'Назад' : 'Back'}</Link> 
 </div>
       </div>
     );
