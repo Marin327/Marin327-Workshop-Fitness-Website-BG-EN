@@ -12,7 +12,7 @@ const Contact = () => {
       <h3>{language === 'bg' ? 'За всички запитвания, предложения или нужда от помощ.' : 'For all inquiries, suggestions, or assistance.'}</h3>
       <p>
         {language === 'bg' ? 'Имейл:' : 'Email:'} <a href="mailto:info@fitnesdeluxe&spa.com">info @fitnesdeluxe&spa.com</a><br />
-        {language === 'bg' ? 'Телефон:' : 'Phone:'} +359 89 708 2919<br />
+        {language === 'bg' ? 'Телефон:' : 'Phone:'} 00 888 66 444<br />
         {language === 'bg' ? 'Адрес:' : 'Address:'} {language === 'bg' ? 'ул. Главна 123, София, България' : '123 Main St, Sofia, Bulgaria'}
       </p>
       <div className="social-links">
